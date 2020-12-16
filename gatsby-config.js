@@ -1,58 +1,58 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://ryansdowning.ddns.net/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Ryan Downing',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Ryan Downing | Software Engineer Intern at Capital One`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Currently a Junior at the University of Maryland studying Finance and Computer Science with a specialization in machine learning. Interested in quantitative research, innovative software solutions, and collaborative projects.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@ryansdowning`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/ryansdowning`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/ryan-downing-074354170/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Hi, my name is Ryan Downing and I am currently a Software Engineer Intern at Capital One as well as the Co-President / Portfolio Manager of the Smith Investment Fund at UMD. I am currently pursuing a dual-degree from the University of Maryland with a Bachelors of Science in Finance and Computer Science with a specialization in machine learning. I have a profound interest in all things data, and am particularly interested in financial markets. Recently, my research has been concentrated around systematic trading strategies that utilize novel quantitative finance techniques. I am also working on an NLP platform for performing sentiment analysis for stocks to be used as an alternative data source for trading research.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Stock Sentiment',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
+        link: 'https://github.com/ryansdowning/nlp_research',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Financial Data Modeling',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'An exploratory data analysis of historical financial data including both financial statements and price volume. Applies basic machine learning methods for price prediction.',
+        link: 'https://ryansdowning.github.io/financial-data-modeling/',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Smith Investment Fund',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Manage a team of 22 other students at the University of Maryland in researching systematic trading strategies, developing supporting software, and educating undergraduates in topics including statistics, programming, finance, and career development.',
+        link: 'https://www.smithinvestmentfund.com/quant-about',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Capital One Financial Corporation',
+        description: 'Software Engineer Intern, June 2020 - Present',
+        link: 'https://campus.capitalone.com/technology-program',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Smith Investment Fund at UMD',
+        description: 'Co-President / Portfolio Manager, October 2018 - Present',
+        link: 'https://www.smithinvestmentfund.com/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Lincoln Financial Heritage',
+        description: 'Summer Intern, May 2019 - August 2019',
+        link: 'https://www.heritageconsultants.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +60,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Advanced in Python, proficient in R, C, Java, Ruby knowledgeable in Assembly, MATLAB',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Python Packages',
+        description:
+          'NumPy, Pandas, Sklearn, PyTorch, Tensorflow, Transformers, SpaCy, Seaborn, Dask, Multiprocessing, PyTest, Poetry',
       },
       {
         name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        description: 'Docker, MySQL, PostgreSQL, Jira, LaTeX',
       },
     ],
   },
