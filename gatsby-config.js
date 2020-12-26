@@ -19,6 +19,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Advent of Code 2020 (Python)',
+        description:
+          'All challenges from advent of code 2020 completed in Python 3.',
+        link: 'https://github.com/ryansdowning/aoc-2020',
+      },
+      {
         name: 'Stock Sentiment',
         description:
           'Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
