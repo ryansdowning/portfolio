@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'Stock Sentiment',
         description:
-          'Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
+          'WIP: Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
         link: 'https://github.com/ryansdowning/nlp_research',
       },
       {
@@ -66,12 +66,12 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Advanced in Python, proficient in R, C, Java, Ruby knowledgeable in Assembly, MATLAB',
+          'Advanced in Python, proficient in C, OCaml, Java, R, Ruby knowledgeable in Rust, Assembly, MATLAB',
       },
       {
         name: 'Python Packages',
         description:
-          'NumPy, Pandas, Sklearn, PyTorch, Tensorflow, Transformers, SpaCy, Seaborn, Dask, Multiprocessing, PyTest, Poetry',
+          'NumPy, Pandas, Sklearn, PyTorch, Tensorflow, Transformers, SpaCy, Ray, Optuna, Seaborn, Dask, Multiprocessing, Hypothesis, PyTest, Poetry',
       },
       {
         name: 'Other',
@@ -125,7 +125,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `UA-187006415-1`, // Optional Google Analytics
       },
     },
     {
