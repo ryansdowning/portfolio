@@ -27,8 +27,8 @@ module.exports = {
       {
         name: 'Stock Sentiment',
         description:
-          'WIP: Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
-        link: 'https://github.com/ryansdowning/nlp_research',
+          'WIP (Alpha version live!): Website for displaying data and visualizations based on sentiment of US equities from various alternative text sources. The backend is a fully automated system which scrapes texts from reddit, twitter, and earnings reports. The data is then processed through an NLP pipeline and passed to the frontend for visualizations.',
+        link: 'http://ryansdowning.ddns.net:8050/',
       },
       {
         name: 'Financial Data Modeling',
