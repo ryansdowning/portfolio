@@ -8,8 +8,8 @@ module.exports = {
     title: `Ryan Downing | Software Engineer Intern at Capital One`,
     // Description that goes under your name in main bio
     description: `Currently a Junior at the University of Maryland studying Finance and Computer Science with a specialization in machine learning. Interested in quantitative research, innovative software solutions, and collaborative projects.`,
-    // Optional: Twitter account handle
-    author: `@ryansdowning`,
+    // Optional: [resume_file_name].pdf in the src/images folder
+    resume: `resume`,
     // Optional: Github account URL
     github: `https://github.com/ryansdowning`,
     // Optional: LinkedIn account URL
