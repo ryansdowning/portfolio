@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Ryan Downing | Software Engineer Intern at Capital One`,
     // Description that goes under your name in main bio
-    description: `Currently a Junior at the University of Maryland studying Finance and Computer Science with a specialization in machine learning. Interested in quantitative research, innovative software solutions, and collaborative projects.`,
+    description: `Currently a Senior at the University of Maryland studying Finance and Computer Science with a specialization in machine learning. Interested in machine learning, quantitative research, innovative software solutions, and collaborative projects.`,
     // Optional: [resume_file_name].pdf in the src/images folder
     resume: `resume`,
     // Optional: Github account URL
@@ -47,9 +47,19 @@ module.exports = {
     experience: [
       {
         name: 'Capital One Financial Corporation',
-        description: 'Software Engineer Intern, June 2020 - Present',
+        description: 'DevOps Engineer Intern, June 2021 - August 2021',
+        link: 'https://campus.capitalone.com/technology-program'
+      },
+      {
+        name: 'Capital One Financial Corporation',
+        description: 'Data Engineer Intern, June 2020 - June 2021',
         link: 'https://campus.capitalone.com/technology-program',
       },
+      {
+        name: 'NSF - Research for Undergraduates at UMD',
+        description: 'Machine Learning Researcher, June 2021 - August 2021',
+        link: 'https://www.cs.umd.edu/projects/reucaar/index.html'
+      }
       {
         name: 'Smith Investment Fund at UMD',
         description: 'Co-President / Portfolio Manager, October 2018 - Present',
