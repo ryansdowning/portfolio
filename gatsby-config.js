@@ -59,7 +59,7 @@ module.exports = {
         name: 'NSF - Research for Undergraduates at UMD',
         description: 'Machine Learning Researcher, June 2021 - August 2021',
         link: 'https://www.cs.umd.edu/projects/reucaar/index.html'
-      }
+      },
       {
         name: 'Smith Investment Fund at UMD',
         description: 'Co-President / Portfolio Manager, October 2018 - Present',
